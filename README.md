@@ -9,20 +9,21 @@
 ## 工程结构
 ``` 
 NongJiYun
-├── njy-auth -- 授权服务提供
-├── njy-common -- 常用工具封装包
-├── njy-gateway -- Spring Cloud 网关
+├── njy-auth -- 认证授权模块
+├── njy-tool -- 微服务封装
+├── njy-common -- 常用工具封装
+├── njy-gateway -- Spring Cloud网关
 ├── njy-ops -- 运维中心
 ├    ├── njy-admin -- spring-cloud后台管理
-├    ├── njy-resource -- 资源管理
+├    ├── njy-oss -- 资源管理
+├    ├── njy-swagger -- 文档管理
 ├── njy-service -- 业务模块
 ├    ├── njy-log -- 日志模块 
 ├    ├── njy-system -- 系统模块 
 ├    └── njy-user -- 用户模块 
-├    ├── njy-community -- 交流模块 
+├    ├── njy-article -- 文章模块 
 ├── njy-service-api -- 业务模块api封装
-├    ├── njy-log-api -- 日志api 
 ├    ├── njy-system-api -- 系统api 
 ├    ├── njy-user-api -- 用户api 
-└──  └── njy-community-api -- 交流api 
+└──  └── njy-article-api -- 文章api 
 ```

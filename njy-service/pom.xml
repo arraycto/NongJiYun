@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>NongJiYun</artifactId>
+        <groupId>com.ssy</groupId>
+        <version>1.0.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>njy-service</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <description>农技耘service依赖模块</description>
+
+    <modules>
+        <module>njy-user</module>
+        <module>njy-article</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.ssy</groupId>
+            <artifactId>njy-cloud</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

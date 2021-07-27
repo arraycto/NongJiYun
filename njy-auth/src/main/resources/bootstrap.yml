@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: @spring.profiles.active@
+
+  main:
+    allow-bean-definition-overriding: true
+
+  application:
+    name: njy-auth
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: @nacos.server-addr@
+        namespace: @nacos.namespace@
+      config:
+        server-addr: @nacos.server-addr@
+        namespace: @nacos.namespace@
+        file-extension: yml
+        name: ${spring.application.name}-${spring.profiles.active}

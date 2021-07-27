@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>NongJiYun</artifactId>
+        <groupId>com.ssy</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>njy-auth</artifactId>
+    <version>1.0.0</version>
+    <description>农技耘认证模块</description>
+
+    <dependencies>
+        <!--引入微服务封装模块-->
+        <dependency>
+            <groupId>com.ssy</groupId>
+            <artifactId>njy-cloud</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+</project>

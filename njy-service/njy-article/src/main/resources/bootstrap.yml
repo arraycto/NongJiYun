@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: njy-article
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        namespace: dev
+        name: njy-${spring.profiles.active}
+        file-extension: yml
+        server-addr: 127.0.0.1:8848
+      discovery:
+        namespace: dev
+        server-addr: 127.0.0.1:8848
+
